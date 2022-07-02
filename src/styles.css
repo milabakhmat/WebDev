@@ -1,5 +1,13 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #fff0f3;
+}
+
 body {
   padding: 10px 10px 10px 10px;
+  background-color: lightblue;
 }
 section {
   margin: 40px;
