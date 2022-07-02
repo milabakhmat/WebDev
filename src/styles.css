@@ -14,6 +14,7 @@ section {
   margin: 40px;
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   padding: 30px;
+  border: lightgrey;
 }
 h1 {
   color: darkgrey;
