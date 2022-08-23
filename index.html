@@ -1,60 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link href="src/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Assignment - Control Structures</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="assignment.js" defer></script>
   </head>
-
   <body>
-    <div class="container">
-      <h1>
-        <i class="fa fa-thermometer" style="font-size: 36px"></i>
-        WeatherBuddy
-      </h1>
-      <form id="enter-search">
-        <div class="form-group">
-          <input
-            type="text"
-            placeholder="Enter your city"
-            id="enter-city"
-            autofocus
-          />
-
-          <input type="submit" value="Search" class="btn btn-success" />
-        </div>
-      </form>
-
-      <button>Current location</button>
-
-      <h3 id="city"></h3>
-      <!---<div>
-    <span id="grade">77</span> 
-    <span>
-      <a href="#" id="celsius-link">C</a>/
-      <a href="#" id="fahrenheit-link">F</a>
-    </span>
-  </div> -->
-
-      <br />
-
-      <div class="all-data">
-        <div id="date-time"></div>
-        <div id="humidity"></div>
-        <div id="new-temp"></div>
-        <div id="wind"></div>
-      </div>
-      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-      <script src="src/index.js"></script>
-    </div>
+    <h1>Assignment - Control Structures</h1>
+    <ol>
+      <li>
+        In the attached code <code>assignment.js</code>, you find a variable
+        that holds a random number between 0 and 1. Write code that shows an
+        alert (with any message) when that number is greater than 0.7.
+      </li>
+      <li>
+        Create an array of numbers (any numbers of your choice) and loop through
+        the array in two different ways - outputting the numbers inside of the
+        loop.
+      </li>
+      <li>
+        Adjust one of the loops from the last task such that it actually starts
+        at the end (last element) of the array and loops to the first element.
+      </li>
+      <li>
+        Create another random number (in a separate constant) and show an alert
+        in two different scenarios: Both are greater 0.7 OR at least one of the two is
+        NOT greater than 0.2.
+      </li>
+    </ol>
   </body>
 </html>
