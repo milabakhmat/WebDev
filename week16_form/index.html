@@ -1,0 +1,48 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=>, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.a1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <form action="https://httpbin.org/post" method="post">
+    <div class="wrap">
+      <div class="question">
+        <label for="breed-selector">What is your favorite cat breed?</label>
+      </div>
+      <div class="options">
+        <select name="choice" id="breedChoice" required>
+          <option value="">--Please choose your cat breed--</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>How many cats have you had?</label>
+      </div>
+      <div class="options">
+        <input type="number" placeholder="0" min="1" />
+      </div>
+      <div class="question">
+        <label>What is your cat's name?</label>
+      </div>
+      <div class="options">
+        <input
+          type="text"
+          name="name"
+          pattern="[A-Za-z]+"
+          placeholder="Fluffy"
+        />
+      </div>
+      <div class="submit-button">
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </form>
+</body>
